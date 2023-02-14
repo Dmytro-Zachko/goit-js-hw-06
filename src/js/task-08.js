@@ -8,6 +8,7 @@ formRef.addEventListener('submit', (event) => {
         email,
         password,
     }
+    
     if (!email && !password) {
         alert('Всі поля повинні бути заповнені')
         }

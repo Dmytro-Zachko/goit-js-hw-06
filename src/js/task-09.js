@@ -1,8 +1,7 @@
-const bodyRef = document.querySelector('body')
 const btnRef = document.querySelector('.change-color');
 const spanRef = document.querySelector('.color');
 btnRef.addEventListener('click', () => {
-  bodyRef.style.backgroundColor = getRandomHexColor();
+  document.body.style.backgroundColor = getRandomHexColor();
   spanRef.textContent = getRandomHexColor()
 })
 
