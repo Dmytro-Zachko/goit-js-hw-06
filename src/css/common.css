@@ -27,7 +27,7 @@ button {
   flex-direction: row;
 }
 .gallery__img {
-  width: 200px;
+  width: 210px;
   height: 120px;
   margin-right: 20px;
 }

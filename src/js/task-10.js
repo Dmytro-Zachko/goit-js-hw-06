@@ -28,7 +28,7 @@ function makeInputWork() {
   inputRef.addEventListener('input', () => {
     return inputRef.value
   });
-  createBoxes(inputRef.value)
+  createBoxes(inputRef.value);
 }
 
 function getRandomHexColor() {
